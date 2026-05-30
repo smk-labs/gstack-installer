@@ -1,0 +1,13 @@
+{
+  "name": "gstack-installer",
+  "version": "0.1.0",
+  "description": "Bootstraps gstack (garrytan/gstack) into Claude Code. gstack ships as a 70+ skill bundle installed to ~/.claude/skills/gstack via its own `./setup` build (it compiles the `browse` browser binary and wires ~60 bin tools), so it cannot be loaded as a normal plugin. This plugin adds one `/install-gstack` skill that runs the upstream clone + setup, optionally adds the gstack section to CLAUDE.md, and offers team mode. Updates in place if gstack is already present.",
+  "author": {
+    "name": "SMKeramati",
+    "url": "https://github.com/SMKeramati"
+  },
+  "homepage": "https://github.com/garrytan/gstack",
+  "repository": "https://github.com/SMKeramati/gstack-installer",
+  "license": "MIT",
+  "keywords": ["gstack", "garrytan", "installer", "bootstrap", "skills", "claude-code"]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "gstack",
+  "owner": {
+    "name": "SMKeramati",
+    "url": "https://github.com/SMKeramati"
+  },
+  "metadata": {
+    "description": "One-plugin marketplace that bootstraps gstack (garrytan/gstack) into Claude Code. gstack is not a plugin: it is a 70+ skill bundle that installs to ~/.claude/skills/gstack via its own build script. This marketplace ships a single installer plugin so a team can add the marketplace, install it, and run one skill that performs gstack's real clone + setup."
+  },
+  "plugins": [
+    {
+      "name": "gstack-installer",
+      "source": "./",
+      "description": "Installs and updates gstack (Garry Tan's Claude Code setup: 70+ slash-command skills for CEO/eng/design review, QA, browser, ship, security). Runs the upstream clone + setup so the browse binary compiles and every skill registers natively. Idempotent: updates in place if already installed.",
+      "version": "0.1.0",
+      "author": {
+        "name": "SMKeramati",
+        "url": "https://github.com/SMKeramati"
+      },
+      "homepage": "https://github.com/garrytan/gstack",
+      "license": "MIT",
+      "keywords": ["gstack", "garrytan", "installer", "bootstrap", "skills", "qa", "code-review", "claude-code"]
+    }
+  ]
+}
