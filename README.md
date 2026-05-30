@@ -16,7 +16,7 @@ So pointing a marketplace's plugin `source` at `garrytan/gstack` would install n
 
 ### Claude Desktop
 
-1. Settings -> Extensions (Plugins) -> **Add marketplace**, paste the repo: `SMKeramati/gstack-installer` (or the Git URL).
+1. Settings -> Extensions (Plugins) -> **Add marketplace**, paste the **full GitHub URL** (Desktop requires the full address, not the `owner/repo` shorthand): `https://github.com/SMKeramati/gstack-installer`
 2. Find **gstack-installer** in the marketplace list, click **Install**.
 3. In a chat, run `/gstack-installer:install-gstack` (or just type "install gstack").
 4. Restart Claude Desktop so the gstack skills load.
