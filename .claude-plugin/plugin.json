@@ -7,7 +7,7 @@
     "url": "https://github.com/SMKeramati"
   },
   "homepage": "https://github.com/garrytan/gstack",
-  "repository": "https://github.com/SMKeramati/gstack-installer",
+  "repository": "https://github.com/smk-labs/gstack-installer",
   "license": "MIT",
   "keywords": ["gstack", "garrytan", "installer", "bootstrap", "skills", "claude-code"]
 }
