@@ -1,3 +1,14 @@
+# gstack-installer (retired)
+
+> [!IMPORTANT]
+> **This project is retired and the repo is archived.** Install gstack with the `gstack` plugin instead:
+> `/plugin marketplace add smk-labs/claude-plugins` then `/plugin install gstack@smk`.
+>
+> Two ways to install one thing was one too many. The `gstack` plugin is a self-contained snapshot that works out of the box; this installer's only advantage was tracking upstream, which is not worth a second repo to maintain. For the real native setup, run Garry Tan's own installer from [garrytan/gstack](https://github.com/garrytan/gstack).
+
+<details>
+<summary>Original README</summary>
+
 # gstack-installer
 
 A one-plugin Claude Code marketplace that bootstraps [**gstack**](https://github.com/garrytan/gstack), Garry Tan's Claude Code setup (70+ slash-command skills: CEO/eng/design review, QA, browser automation, ship/release, security audits).
@@ -51,3 +62,5 @@ It never edits CLAUDE.md or commits to your repo without explicit confirmation.
 ## Credit
 
 gstack is built by [Garry Tan](https://github.com/garrytan) and licensed MIT. This installer is an independent wrapper, also MIT. All gstack functionality, updates, and support come from the upstream repo: https://github.com/garrytan/gstack
+
+</details>
